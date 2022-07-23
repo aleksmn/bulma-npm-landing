@@ -1,0 +1,17 @@
+{
+  "name": "bulma-npm-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css-watch": "sass --watch --no-source-map css/main.scss css/main.css",
+    "start": "npm run css-watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "sass": "^1.54.0"
+  }
+}
