@@ -7,39 +7,104 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My custom Bulma website</title>
   <link rel="stylesheet" href="css/main.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
-  <h1 class="title">
-    Bulma
-  </h1>
 
-  <p class="subtitle">
-    Modern CSS framework based on <a
-      href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a>
-  </p>
+  <!-- Navbar -->
 
-  <div class="field">
-    <div class="control">
-      <input class="input" type="text" placeholder="Input">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="">
+          <span class="subtitle has-text-light has-text-weight-bold">aleksmn</span>
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu">
+        <!-- <div class="navbar-start">
+          </div> -->
+
+        <div class="navbar-end">
+          <a class="navbar-item">
+            Home
+          </a>
+
+          <a class="navbar-item">
+            Blog
+          </a>
+
+          <a class="navbar-item">
+            Contacts
+          </a>
+
+
+        </div>
+      </div>
     </div>
-  </div>
+  </nav>
 
-  <div class="field">
-    <p class="control">
-      <span class="select">
-        <select>
-          <option>Select dropdown</option>
-        </select>
-      </span>
-    </p>
-  </div>
+  <div class="section">
+    <div class="container content is-medium">
+      <h1 class="title">
+        Bulma
+      </h1>
 
-  <div class="buttons">
-    <a class="button is-primary">Primary</a>
-    <a class="button is-warning">Warning</a>
-    <a class="button is-link">Link</a>
-    <a class="button is-danger">Danger</a>
+      <p class="subtitle">
+        Modern CSS framework based on <a
+          href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a>
+      </p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ad autem amet, minima optio vitae. Odit
+        accusantium libero veniam? Magnam vel, velit molestiae voluptate veniam id animi nostrum eligendi officia.</p>
+      <p>Similique incidunt sapiente aliquid molestias voluptatem error eius odio non blanditiis voluptate distinctio
+        quas
+        vitae rem at perspiciatis dolor possimus porro delectus placeat ipsa, a, totam animi repellendus? Deleniti,
+        vero.
+      </p>
+      <p>In repudiandae deleniti, recusandae voluptate sequi voluptatem molestias id suscipit quaerat, adipisci rerum
+        quod
+        voluptas tenetur modi doloremque a fugit at. Animi, nesciunt! Est assumenda aspernatur doloribus distinctio
+        consectetur! Aliquid.</p>
+      <p>Nam dolorem iure assumenda. Obcaecati provident necessitatibus, aspernatur saepe nesciunt reprehenderit ipsa
+        nisi
+        vitae optio doloremque itaque, culpa ut deserunt dolorem error, vel facilis sequi. Quos blanditiis magni libero
+        culpa.</p>
+      <p>Saepe doloremque cupiditate suscipit beatae quasi molestias, quos recusandae nemo velit, temporibus dolorum
+        iste
+        error! A vel repudiandae maxime vitae laudantium aliquam cumque, cupiditate nobis vero veritatis commodi, sint
+        omnis!</p>
+
+      <div class="field">
+        <div class="control">
+          <input class="input" type="text" placeholder="Input">
+        </div>
+      </div>
+
+      <div class="field">
+        <p class="control">
+          <span class="select">
+            <select>
+              <option>Select dropdown</option>
+            </select>
+          </span>
+        </p>
+      </div>
+
+      <div class="buttons">
+        <a class="button is-primary">Primary</a>
+        <a class="button is-warning">Warning</a>
+        <a class="button is-link">Link</a>
+        <a class="button is-danger">Danger</a>
+      </div>
+    </div>
   </div>
 </body>
 

@@ -2,21 +2,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Rubik:ital,wght@0,400;0,600;1,400&display=swap');
 
+// Theme Variables
+@import "../node_modules/bulmaswatch/superhero/variables";
+
+
+// My Variables
 // Colors:
-$primary: rgb(162, 131, 228);
+$primary: rgb(151, 115, 227);
 $primary-dark: rgb(91, 78, 120);
 $primary-light: rgb(236, 228, 250);
 $warning: rgb(252, 197, 192);
-$link: rgb(79, 124, 207);
+$link: rgb(76, 117, 192);
 $danger: rgb(224, 86, 114);
-
-
 
 $family-sans-serif: 'Rubik', sans-serif;
 $family-secondary: 'Mulish', sans-serif;
 
-
-
-
-
 @import "../node_modules/bulma/bulma.sass";
+
+@import "../node_modules/bulmaswatch/superhero/overrides";
+
+
